@@ -1,13 +1,13 @@
 pkg_name=xlib
 pkg_distname=libX11
 pkg_origin=core
-pkg_version=1.7.0
+pkg_version=1.7.2
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="X11 protocol client library"
 pkg_upstream_url="https://www.x.org/"
 pkg_license=('MIT')
 pkg_source="https://www.x.org/releases/individual/lib/${pkg_distname}-${pkg_version}.tar.bz2"
-pkg_shasum="36c8f93b6595437c8cfbc9f08618bcb3041cbd303e140a0013f88e4c2977cb54"
+pkg_shasum=1cfa35e37aaabbe4792e9bb690468efefbfbf6b147d9c69d6f90d13c3092ea6c
 pkg_dirname="${pkg_distname}-${pkg_version}"
 pkg_deps=(
   core/glibc
